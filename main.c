@@ -87,7 +87,7 @@ char *ksh_read_line(void)
   if (!buffer) {
     fprintf(stderr, "ksh: allocation error\n");
     exit(EXIT_FAILURE);
-}
+  }
 
   while (1) {
     c = getchar();
